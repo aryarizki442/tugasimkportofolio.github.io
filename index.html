@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arya | Teknik Informatika</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        body {
+          background-color: #343a40;
+          /* Warna latar belakang yang sesuai dengan warna bg-dark dari Bootstrap */
+           /* Warna latar belakang yang sesuai dengan warna bg-dark dari Bootstrap */
+          color: #fff; /* Warna teks untuk kontras */
+        }
+        svg{
+            margin-bottom: -80px;
+        }
+   .naik{
+    margin-top: -150px;
+   }
+    .text-container {
+      text-align: left;
+    }
+
+    .text-container h1 {
+      font-size: 36px;
+      font-weight: bold;
+    }
+
+    .text-container h2 {
+      font-size: 24px;
+      font-weight: normal;
+      margin-bottom: 20px;
+
+    }
+
+    .text-container p {
+      font-size: 18px;
+      margin-bottom: 20px;
+
+    }
+    #education{
+        background-color: #212429;
+        padding: 30px;
+    }
+    #education a::hover{
+        background-color: #717171;
+    }
+    .skill{
+        background-color: #212429;
+        padding: 30px;
+        margin-bottom: 10px;
+
+    }
+    .space{
+        padding-right: 20px;
+    }
+    .judul{
+        margin-top: -60px;
+        margin-left: -50px;
+        background-color: rgb(92, 113, 114);
+    }
+    .judul1{
+        background-color: rgb(92, 113, 114);
+        margin-left: -20px;
+        height: 70px;
+    }
+
+    .custom-card {
+    background: linear-gradient(rgba(92,113, 114, 1), rgba(92, 113, 114, 1));
+    color: #fff; /* Set text color to white for better visibility */
+    border-radius: 10px; /* Optional: Add border-radius for a rounded card */
+  }
+  #sertifikat{
+    background-image: url(../Tugas/foto/bg-galaxy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+    .saya{
+    animation: kiri 2s forwards;
+
+}
+@keyframes kiri{
+    0%  { opacity: 0; -webkit-transform: translateX(-200px); }
+    100%{opacity: 1; -webkit-transform: translateX(0px);}
+}
+.gambar{
+    animation: kanan 2s forwards;
+
+}
+@keyframes kanan{
+    0%  { opacity: 0; -webkit-transform: translateX(200px); }
+    100%{opacity: 1; -webkit-transform: translateX(0px);}
+}
+      </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <!-- Logo di kiri atas -->
+          <a class="navbar-brand" href="#">
+            <img src="../foto/logoArya.png" alt="Logo" width="80px" height="40px" class="d-inline-block align-top">
+          </a>
+    
+          <!-- Toggler button untuk menu responsif -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <!-- Daftar menu -->
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <!-- Menu "Home" -->
+              <li class="nav-item">
+                <a class="nav-link" href="#hero">Home</a>
+              </li>
+    
+              <!-- Menu "Help" -->
+              <li class="nav-item">
+                <a class="nav-link" href="#skill">Skill</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#education">Education</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sertifikat">Certificate</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+
+      <!-- hero section -->
+      <section id="hero" style="padding-top: 80px;">
+        
+<div class="container" >
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#5c7272" fill-opacity="1" d="M0,96L34.3,101.3C68.6,107,137,117,206,149.3C274.3,181,343,235,411,250.7C480,267,549,245,617,208C685.7,171,754,117,823,80C891.4,43,960,21,1029,37.3C1097.1,53,1166,107,1234,128C1302.9,149,1371,139,1406,133.3L1440,128L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
+    <div class="row d-flex align-items-center naik">
+      <!-- Text Container (Sebelah Kiri) -->
+      <div class="col-md-6 text-container mt-4 saya">
+        <h1>Arya Rizqi</h1>
+        <h2>UI/UX Designer</h2>
+        <p>"Saya seorang mahasiswa dari Universitas Ibn Khaldun Bogor dengan jurusan Teknik Informatika, Kelas malam, saya sangat senang bisa mengimplementasikan dan berbagi apa yang sudah saya ketahui, hingga menjadi sangat bermanfaat bagi nusa dan bangsa"</p>
+      </div>
+  
+      <!-- Image Container (Sebelah Kanan) -->
+      <div class="col-md-6 image-container gambar">
+        <img src="../foto/sasa.png" alt="Design Creator Image"  width="550px" height="400px">
+      </div>
+    </div>
+</div>
+      </section>
+
+      <section id="skill" style="padding-top: 80px;">
+        <div class="container skill">
+            <h2 class=" p-2 col-md-4 judul"><img src="../foto/skill/skill.png" alt="" width="50px" height="50px">SKILL</h2>
+            <div class="row d-flex text-center">
+            <div class="col-2">
+                <img src="../foto/skill/1.png" alt="" width="100px" height="80px">
+                <h4>Photoshop</h4>
+            </div>
+
+            <div class="col-2">
+                <img src="../foto/skill/2.png" alt="" width="120px" height="80px">
+                <h4>HTML</h4>
+            </div>
+
+            <div class="col-2">
+                <img src="../foto/skill/3.png" alt="" width="60px" height="80px">
+                <h4>CSS</h4>
+            </div>
+
+            <div class="col-2">
+                <img src="../foto/skill/4.png" alt="" width="150px" height="80px">
+                <h4>Javascript</h4>
+            </div>
+
+            <div class="col-2">
+                <img src="../foto/skill/6.png" alt="" width="120px" height="80px">
+                <h4>PHP</h4>
+            </div>
+
+            <div class="col-2">
+                <img src="../foto/skill/8.png" alt="" width="120px" height="80px">
+                <h4>Laravel</h4>
+            </div>
+
+        </div>
+    </div>
+      </section>
+
+      <section id="education" style="padding-top: 80px;">
+        
+        <div class="container">
+            <h2 class="col-md-4 judul1"> <img src="../foto/pendidikan.png" alt="" width="80px" height="80px">EDUCATION</h2> <br>
+          <div class="row d-flex">
+
+            <!-- sd -->
+            <div class="col-3">
+              <div class="card h-100 custom-card">
+                <img src="../foto/logosd.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column justify-content-between">
+                  <div>
+                    <h5 class="card-title">SDN Harjasari I</h5>
+                    <p class="card-text">2008 - 2012</p>
+                  </div>
+                  <a href="#" class="btn btn-primary text-center">Alamat Lengkap</a>
+                </div>
+              </div>
+            </div>
+      
+            <!-- smp -->
+            <div class="col-3">
+              <div class="card h-100 custom-card">
+                <img src="../foto/logowp.jpg" class="card-img-top" alt="..." height="260px">
+                <div class="card-body d-flex flex-column justify-content-between">
+                  <div>
+                    <h5 class="card-title">SMP Wijaya Plus</h5>
+                    <p class="card-text">2015 - 2018</p>
+                  </div>
+                  <a href="#" class="btn btn-primary text-center">Alamat Lengkap</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- smk -->
+            <div class="col-3">
+                <div class="card h-100 custom-card">
+                  <img src="../foto/logobio.jpg" class="card-img-top" alt="...">
+                  <div class="card-body d-flex flex-column justify-content-between">
+                    <div>
+                      <h5 class="card-title">SMKN 4 BOGOR</h5>
+                      <p class="card-text">Teknik Komputer dan Jaringan <br>2015 - 2018</p>
+                    </div>
+                    <a href="#" class="btn btn-primary text-center">Alamat Lengkap</a>
+                  </div>
+                </div>
+              </div>
+
+               <!-- kuliah -->
+            <div class="col-3">
+                <div class="card h-100 custom-card">
+                  <img src="../foto/logouika.png" class="card-img-top" alt="...">
+                  <div class="card-body d-flex flex-column justify-content-between">
+                    <div>
+                      <h5 class="card-title">UNIVERSITAS IBN KHALDUN BOGOR</h5>
+                      <p class="card-text"> Teknik Informatika <br>2015 - 2018</p>
+                    </div>
+                    <a href="#" class="btn btn-primary text-center">Alamat Lengkap</a>
+                  </div>
+                </div>
+              </div>
+
+
+          </div>
+        </div>
+      </section>
+
+        <div class="container " >
+            <h2 class="mt-3 text-center">CERTIFICATE</h2>
+            <section id="sertifikat" class="row text-center row-cols-md-3 mt-3 g-4 p-5">
+                <div class="col">
+                    <img src="../foto/sertifikat/Html & Css.jpeg" alt="Sertifikat 1" class="img-fluid rounded" style="width: 300px; height: 200px;">
+                </div>
+                <div class="col">
+                    <img src="../foto/sertifikat/JS.jpeg" alt="Sertifikat 2" class="img-fluid rounded" style="width: 300px; height: 200px;">
+                </div>
+                <div class="col">
+                    <img src="../foto/sertifikat/Sertifikat Fronted Web Developer.jpeg" alt="Sertifikat 3" class="img-fluid rounded" style="width: 300px; height: 200px;">
+                </div>
+                <div class="col">
+                    <img src="../foto/sertifikat/Sertifikat Kompetisi Desain.jpeg" alt="Sertifikat 4" class="img-fluid rounded" style="width: 300px; height: 200px;">
+                </div>
+                <div class="col">
+                    <img src="../foto/sertifikat/codingcamp.JPG" alt="Sertifikat 5" class="img-fluid rounded" style="width: 300px; height: 200px;">
+                </div>
+                <div class="col">
+                    <img src="../foto/sertifikat/pkl.JPG" alt="Sertifikat 6" class="img-fluid rounded" style="width: 300px; height: 200px;">
+                </div>
+            </section>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#212429" fill-opacity="1" d="M0,128L48,112C96,96,192,64,288,58.7C384,53,480,75,576,96C672,117,768,139,864,154.7C960,171,1056,181,1152,186.7C1248,192,1344,192,1392,192L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+      <footer class="footer py-3 bg-dark text-white">
+        
+        <div class="container text-center">
+            <div class="p-2 text-center justify-content-center d-flex">
+                <a href=""><img src="../foto/sosmed/ig.png" alt="" width="70px" height="50px"></a>
+                <a href=""><img src="../foto/sosmed/fb.png" alt="" width="70px" height="50px"></a>
+            </div>
+            <div class="d-flex justify-content-center text-center">
+                <p class="space"><img src="../foto/sosmed/wa.png" alt="" width="30px" height="25px">(+62)838-4954-6024 - WhatsApp</p>
+                <p><img src="../foto/sosmed/email.png" alt="" width="25px" height="18px"> aryarizki442@gmail.com</p>
+              </div>
+              <p>Jl.Raya Bogor - Sukabumi, Ciawi, Kec.Ciawi, Kab. Bogor</p>
+              <p>&copy; 2024 Arya Rizqi . All rights reserved.</p>
+        </div>
+      </footer>
+</body>
+</html>
